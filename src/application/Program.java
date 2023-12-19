@@ -43,6 +43,8 @@ public class Program {
 			HourContract contract = new HourContract(contractDate, valuePerHour, hours);
 			worker.addContract(contract);
 		}
+		
+		sc.close();
 	}
 
 }
